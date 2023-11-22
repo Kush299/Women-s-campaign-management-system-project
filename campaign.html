@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Campaign</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header><h1>Welcome to Women's Campaign Management System</h1>
+          </header>
+        
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="campaign.html">Campaigns</a></li>
+                  <li><a href="events.html">Events</a></li>
+                  <li><a href="reports.html">Reports</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+          </nav>
+          <br><br><br><br><br><br>
+
+          <main>
+            <section id="create-campaign">
+                <h2>Create a New Campaign</h2><br><br>
+                <div class="alert">Campaign has been added</div>
+                <form id="campaignForm" action="">
+                    <label>Campaign Title:</label>
+                    <input type="text" id="campaigntitle" name="campaign-title" required><br><br><br>
+                
+                    <label>Campaign Description:</label>
+                    <textarea id="campaigndescription" name="campaign-description" rows="4" required></textarea><br><br><br>
+                
+                    <label>Campaign Date:</label>
+                    <input type="date" id="campaigndate" name="campaign-date" required><br><br><br>
+                
+                    <button type="submit">Create Campaign</button>
+                </form>
+                
+            </section>
+        </main><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <p>&copy; 2023 Women's Campaign System</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="./campaign.js"></script>
+    </body>
+</html>
+
+

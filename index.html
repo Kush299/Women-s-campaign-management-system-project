@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Women's Campaign Management System</title>
+    <link rel="stylesheet" href="path/to/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+       <h1>Welcome to Women's Campaign Management System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="campaign.html">Campaigns</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="p10.jpg" class="d-block w-100" alt="..." height="600px" >
+            <div class="carousel-caption d-none d-md-block">
+             </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="p9.jpg" class="d-block w-100" alt="..." height="600px">
+            <div class="carousel-caption d-none d-md-block">
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="p8.webp" class="d-block w-100" alt="..." height="600px">
+            <div class="carousel-caption d-none d-md-block">
+              </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br><br>
+      <script>
+        // Set the interval for auto-rotating the carousel in milliseconds (e.g., 3000 ms = 3 seconds).
+        const interval = 5000;
+    
+        // Find the carousel element
+        const carousel = document.getElementById("carouselExampleDark");
+    
+        // Create a function to auto-rotate the carousel
+        function autoRotateCarousel() {
+            const nextButton = carousel.querySelector(".carousel-control-next");
+            if (nextButton) {
+                nextButton.click(); // Trigger the next button click to move to the next slide.
+            }
+        }
+    
+        // Start auto-rotating the carousel at the specified interval
+        setInterval(autoRotateCarousel, interval);
+    </script>
+    
+    <main>
+        <section class="campaigns">
+            <h2>Active Campaigns</h2>
+            <ul>
+                <li>Campaign 1</li>
+                <li>Campaign 2</li>
+                <li>Campaign 3</li>
+            </ul>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Event 1</li>
+                <li>Event 2</li>
+                <li>Event 3</li>
+            </ul>
+        </section>
+
+        <section class="reports">
+            <h2>Reports</h2>
+            <ul>
+                <li>Report 1</li>
+                <li>Report 2</li>
+                <li>Report 3</li>
+            </ul>
+        </section>
+    </main>
+<br>
+    <footer>
+        <p>&copy; 2023 Women's Campaign System</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="path/to/bootstrap.js"></script>
+    
+</body>
+</html>

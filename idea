@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Women's Campaign Management System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="campaign.html">Campaigns</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav><br><br><br>
+
+    <h1 align="center">Contact Us</h1>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: contact@example.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <p>Address: 123 Main Street, City, Country</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2><br><br>
+            <form id="contactForm" action="">
+                <label>Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label>Email:</label>
+                <input type="email" id="emailid" name="emailid" required><br><br>
+
+                <label>Message:</label>
+                <textarea id="msgContent" name="msgContent" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Website Name</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-database.js"></script>
+
+    <script src="contactus.js"></script>
+</body>
+</html> -->
